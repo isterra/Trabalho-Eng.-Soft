@@ -18,8 +18,9 @@ Vamos agora implementar um exemplo básico do uso do AWS SQS em Node.js. Neste e
 Para utilizar o serviço SQS siga os passos:
 - Cire sua conta na AWS : [link](https://portal.aws.amazon.com/billing/signup#/start/otp)
 - Crie uma fila : [link](https://us-east-2.console.aws.amazon.com/sqs/v2/home?region=us-east-2#/)
+
+
 ![Fila](https://i.ibb.co/hfPqk6S/criar-Fila-Correto.jpg)
-https://us-east-1.console.aws.amazon.com/billing/home#/account
 
 - Gere sua chave de acesso que serão utilizadas dentro do codigo : [link](https://us-east-1.console.aws.amazon.com/iamv2/home?region=us-east-1#/security_credentials)
 
