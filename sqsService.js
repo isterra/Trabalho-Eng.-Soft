@@ -3,11 +3,11 @@ const https = require('https');
 
 const accountId = '#SUA_ACCOUNT_ID';
 const queueName = '#SUA_FILA.fifo';
-
+const region = "#REGION"
 AWS.config.update({
     accessKeyId: '#SEU_ACCESSKEYID',
     secretAccessKey: '#SEU_SECRETACCESSKEY',
-    region: '#REGION'
+    region: region
 });
 
 
@@ -18,5 +18,5 @@ module.exports={
             agent: new https.Agent({ rejectUnauthorized: false })
         }
     }),
-    queueUrl:`https://sqs.${us-east-2}.amazonaws.com/${accountId}/${queueName}`
+    queueUrl:`https://sqs.${region}.amazonaws.com/${accountId}/${queueName}`
 }
