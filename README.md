@@ -5,8 +5,11 @@ Arquitetura serverless é um modelo de desenvolvimento em nuvem, onde os desenvo
 ## Vantagens do Serverless
 
 • Maior Produtividade: Com serverless, os desenvolvedores podem focar apenas em desenvolver o código sem ter que se preocupar com o gerenciamento da infraestrutura. Sendo assim, sobra muito mais tempo para inovar e aperfeiçoar as funcionalidades da aplicação.
+
 • Redução de custos: Só é necessário pagar pelos recursos que a aplicação utilizar, sendo assim não paga-se por tempo ocioso, que é um problema que ocorre em máquinas virtuais.
+
 • Desenvolvimento em qualquer linguagem: Serverless é um ambiente bem flexível, sendo assim é possível desenvolver na linguagem que acharmos melhor.
+
 • Escalabilidade: A aplicação tem uma maior escalabilidade com o uso de Serverless.
 
 # Uso Real : AWS Lambda
